@@ -8,5 +8,6 @@ public abstract class Pet {
     public String getName() {
         return myName;
     }
+
     public abstract String speak();
 }

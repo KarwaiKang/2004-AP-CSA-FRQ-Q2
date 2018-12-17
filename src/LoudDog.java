@@ -4,6 +4,6 @@ public class LoudDog extends Dog {
     }
 
     public String speak() {
-        return super.speak() + super.speak();
+        return super.speak() + " " + super.speak();
     }
 }
